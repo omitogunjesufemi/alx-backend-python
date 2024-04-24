@@ -8,7 +8,7 @@ import asyncio
 from random import uniform
 
 
-async def async_generator():
+async def async_generator() -> float:
     """
     A coroutine that takes no arguments. It would loop 10 times,
     each time asynchronously wait 1 second, then yield a random
